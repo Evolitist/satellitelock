@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Satellite Lock</string>
+    <string name="label_lock_satellite">GPS Lock</string>
+    <string name="label_lock_backlight">Screen backlight Lock</string>
+    <string name="label_satellites_in_view">In view</string>
+    <string name="label_satellites_in_use">In use</string>
+    <string name="label_HDOP">Accuracy, m</string>
+    <string name="label_status">Lock-on status</string>
+    <string name="action_unlock">Unlock GPS</string>
+    <string name="action_unlock_power">Unlock Backlight</string>
+    <string name="action_settings">Location settings</string>
+    <string name="status_no_permissions">This application requires permission to access location</string>
+    <string name="error">Error</string>
+    <string-array name="lockon_status">
+        <item>Waiting for receiver startup</item>
+        <item>Acquiring position</item>
+        <item>Locked on</item>
+        <item>Unknown</item>
+    </string-array>
+</resources>
